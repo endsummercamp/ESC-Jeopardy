@@ -20,6 +20,7 @@ body > .container-fluid {
 }
 
 div.row.header {
+  display: flex;
   height: 12%;
 }
 
@@ -32,6 +33,7 @@ div.row.header {
 }
 
 div.row.footer {
+  display: flex;
   height: 8%;
 }
 
@@ -116,25 +118,31 @@ div.row.footer {
   background-color: #ccccff !important;
 }
 
-.header div {
+.header > div {
+  flex: 1 1 0;
+  min-width: 0;
   height: 100%;
+  padding: 0 8px;
 }
 
-.header > div > div {
+.header .player-summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   height: 100%;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -ms-transform: translate(-50%,-30%);
-  -moz-transform: translateY(-50%,-30%);
-  -webkit-transform: translate(-50%,-30%);
-  transform: translate(-50%,-30%);
+  width: 100%;
 }
 
 .player {
   margin: 0;
   font-size: 24px;
+  font-size: clamp(10px, 1.6vw, 24px);
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   color: #000000;
 }
 
@@ -152,8 +160,10 @@ div.row.footer {
 }
 
 .points {
-  line-height: 35px;
+  line-height: 1.6;
   font-size: 16px;
+  font-size: clamp(8px, 1.05vw, 16px);
+  white-space: nowrap;
   color: #000000;
 }
 
@@ -317,11 +327,15 @@ div.row.footer {
 }
 
 .game-message {
+  flex: 1;
+  min-width: 0;
   text-align: left;
 }
 
 .copyantani {
-  right: 5%;
+  flex: 0 0 auto;
+  width: auto;
+  min-width: 25%;
   text-align: right;
   color: #99ff00;
 }
@@ -337,8 +351,74 @@ div.row.footer {
   text-decoration: none;
 }
 
-.copyantani > div {
-  font-size: 30px !important;
+.copyantani > .footer-controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  position: static;
+  transform: none;
+  width: auto;
+  height: 100%;
+  font-size: 30px;
+  line-height: 1.25;
+  white-space: nowrap;
+}
+
+.theme-music {
+  display: none;
+}
+
+.music-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 44px;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 3px solid #99ff00;
+  border-radius: 0;
+  background: #0019ff;
+  color: #99ff00;
+  cursor: pointer;
+}
+
+.music-toggle:hover,
+.music-toggle:focus-visible {
+  background: #0066ff;
+  color: #ffff33;
+  border-color: #ffff33;
+}
+
+.music-toggle:focus-visible {
+  outline: 2px solid #ffff33;
+  outline-offset: 3px;
+}
+
+.music-icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+.music-icon::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 2px;
+  width: 4px;
+  height: 4px;
+  background: currentColor;
+  box-shadow: 0 4px, 4px 4px, 0 8px, 4px 8px, 8px 8px,
+              12px 8px, 0 12px, 4px 12px, 0 16px;
+}
+
+.is-playing .music-icon::before {
+  left: 0;
+  width: 6px;
+  height: 20px;
+  box-shadow: 12px 0;
 }
 
 .flipped {
@@ -397,8 +477,9 @@ div.row.footer {
 }
 
 @media (max-width: 1220px) {
-  .copyantani > div {
-    font-size: 21px !important;
+  .copyantani > .footer-controls {
+    font-size: 21px;
+    gap: 12px;
   }
 
   .footer > div > div {
@@ -414,11 +495,4 @@ div.row.footer {
     font-size: 16px;
   }
 
-  .player{
-    font-size: 20px;
-  }
-
-  .points {
-    font-size: 10px;
-  }
 }

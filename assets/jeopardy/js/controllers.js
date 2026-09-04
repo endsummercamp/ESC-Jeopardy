@@ -2,6 +2,50 @@ var ESC_JeopardyControllers = angular.module('ESC_JeopardyControllers', []);
 
 var round = '_demo';
 
+ESC_JeopardyControllers.controller('MusicControls', ['$scope', '$element',
+  function ($scope, $element) {
+    var audio = $element[0].querySelector('.theme-music');
+    $scope.musicPlaying = false;
+    $scope.musicError = '';
+
+    function updatePlayback() {
+      $scope.$evalAsync(function () {
+        $scope.musicPlaying = !audio.paused;
+      });
+    }
+
+    function playbackFailed() {
+      $scope.$evalAsync(function () {
+        $scope.musicPlaying = false;
+        $scope.musicError = 'Musica non disponibile. Premi play per riprovare.';
+      });
+    }
+
+    audio.addEventListener('play', updatePlayback);
+    audio.addEventListener('pause', updatePlayback);
+    audio.addEventListener('error', playbackFailed);
+
+    $scope.toggleMusic = function () {
+      $scope.musicError = '';
+      if (audio.paused) {
+        var playback = audio.play();
+        if (playback && playback.catch) {
+          playback.catch(playbackFailed);
+        }
+      } else {
+        audio.pause();
+      }
+    };
+
+    $scope.$on('$destroy', function () {
+      audio.removeEventListener('play', updatePlayback);
+      audio.removeEventListener('pause', updatePlayback);
+      audio.removeEventListener('error', playbackFailed);
+      audio.pause();
+    });
+  }
+]);
+
 ESC_JeopardyControllers.controller('LoadBoard', ['$scope', '$rootScope', '$http', 'localStorageService',
   function ($scope, $rootScope, $http, localStorageService) {
     if(localStorageService.get('boardstatus') === null ) {
