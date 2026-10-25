@@ -1,290 +1,290 @@
 ﻿{
-  "category1": [
-    "Borsa",
-    {
-      "order": "1",
-      "points": "100",
-      "dailydouble": "no",
-      "question": "Qual'è il ticker di Apple?",
-      "question_type": "text",
-      "answer": "AAPL",
-      "answer_type": "text"
-    },
-    {
-      "order": "2",
-      "points": "200",
-      "dailydouble": "no",
-      "question": "Qual'è il ticker di Microsoft?",
-      "question_type": "text",
-      "answer": "MSFT",
-      "answer_type": "text"
-    },
-    {
-      "order": "3",
-      "points": "300",
-      "dailydouble": "no",
-      "question": "Qual'è il ticker di Tesla Motors?",
-      "question_type": "text",
-      "answer": "TSLA",
-      "answer_type": "text"
-    },
-    {
-      "order": "4",
-      "points": "400",
-      "dailydouble": "no",
-      "question": "Qual'è il ticker di Qualcomm?",
-      "question_type": "text",
-      "answer": "QCOM",
-      "answer_type": "text"
-    },
-    {
-      "order": "5",
-      "points": "500",
-      "dailydouble": "yes",
-      "question": "Qual'è il ticker di Ford Motor Company?",
-      "question_type": "text",
-      "answer": "F",
-      "answer_type": "text"
-    }
-  ],
-  "category2": [
-    "MEME",
-    {
-      "order": "1",
-      "points": "100",
-      "dailydouble": "no",
-      "question": "Chi è Doge?",
-      "question_type": "text",
-      "answer": "games/round_demo/meme/doge.jpg",
-      "answer_type": "image"
-    },
-    {
-      "order": "2",
-      "points": "200",
-      "dailydouble": "no",
-      "question": "Chi è Dolan?",
-      "question_type": "text",
-      "answer": "games/round_demo/meme/dolan.png",
-      "answer_type": "image"
-    },
-    {
-      "order": "3",
-      "points": "300",
-      "dailydouble": "no",
-      "question": "Chi è Conspiracy Keanu?",
-      "question_type": "text",
-      "answer": "games/round_demo/meme/keanu.jpg",
-      "answer_type": "image"
-    },
-    {
-      "order": "4",
-      "points": "400",
-      "dailydouble": "no",
-      "question": "Cos'è Safe For Work Porn?",
-      "question_type": "text",
-      "answer": "games/round_demo/meme/sfwp.jpg",
-      "answer_type": "image"
-    },
-    {
-      "order": "5",
-      "points": "500",
-      "dailydouble": "no",
-      "question": "Che meme dice 'Hello, this is dog?'",
-      "question_type": "text",
-      "answer": "games/round_demo/meme/dog.png",
-      "answer_type": "image"
-    }
-  ],
-  "category3": [
-    "Hello world",
-    {
-      "order": "1",
-      "points": "100",
-      "dailydouble": "no",
-      "question": "Come si fa l'Hello world in LOLCODE?",
-      "question_type": "text",
-      "answer": "HAI<br>CAN HAS STDIO?<br/>VISIBLE \"HAI WORLD!\"<br/>KTHXBYE",
-      "answer_type": "text"
-    },
-    {
-      "order": "2",
-      "points": "200",
-      "dailydouble": "no",
-      "question": "Come si fa l'Hello world in TeX?",
-      "question_type": "text",
-      "answer": "Hello, world!<br/>\\bye",
-      "answer_type": "text"
-    },
-    {
-      "order": "3",
-      "points": "300",
-      "dailydouble": "no",
-      "question": "Come si fa l'Hello world in D?",
-      "question_type": "text",
-      "answer": "import std.stdio;<br/>void main()<br/>{<br/>    writeln(\"Hello, World!\");<br/>}",
-      "answer_type": "text"
-    },
-    {
-      "order": "4",
-      "points": "400",
-      "dailydouble": "no",
-      "question": "Come si fa l'Hello world in Awk?",
-      "question_type": "text",
-      "answer": "BEGIN { if ( NF == 0 ) print \"Hello, world!\" }",
-      "answer_type": "text"
-    },
-    {
-      "order": "5",
-      "points": "500",
-      "dailydouble": "no",
-      "question": "Come si fa l'Hello world in ABAP?",
-      "question_type": "text",
-      "answer": "REPORT TEST.<br/>WRITE 'Hello World'.",
-      "answer_type": "text"
-    }
-  ],
-  "category4": [
-    "Quotes",
-    {
-      "order": "1",
-      "points": "100",
-      "dailydouble": "no",
-      "question": "Qual'è una famosa citazione presa da Star Wars?",
-      "question_type": "text",
-      "answer": "May the Force be with you",
-      "answer_type": "text"
-    },
-    {
-      "order": "2",
-      "points": "200",
-      "dailydouble": "no",
-      "question": "Qual'è una famosa citazione presa dalla vignetta xkcd numero 149?",
-      "question_type": "text",
-      "answer": "sudo make me a sandwitch",
-      "answer_type": "text"
-    },
-    {
-      "order": "3",
-      "points": "300",
-      "dailydouble": "no",
-      "question": "Qual'è il principio di Dilbert?",
-      "question_type": "text",
-      "answer": "I lavoratori meno efficienti vengono sistematicamente trasferiti nelle posizioni dove possono fare meno danni: diventano dirigenti",
-      "answer_type": "text"
-    },
-    {
-      "order": "4",
-      "points": "400",
-      "dailydouble": "no",
-      "question": "Qual'è una famosa citazione presa dal film Hackers?",
-      "question_type": "text",
-      "answer": "Provoca il più bravo, morirai da schiavo",
-      "answer_type": "text"
-    },
-    {
-      "order": "5",
-      "points": "500",
-      "dailydouble": "yes",
-      "question": "Qual'è una famosa citazione presa dal cartone animato South Park?",
-      "question_type": "text",
-      "answer": "Quanto ti fai una sega con ragazze Giapponesi che si pisciano addosso non puoi tornare a Playboy!",
-      "answer_type": "text"
-    }
-  ],
-  "category5": [
-    "Acquisizioni",
-    {
-      "order": "1",
-      "points": "100",
-      "dailydouble": "no",
-      "question": "Chi è stato acquisito da Facebook?",
-      "question_type": "text",
-      "answer": "Oculus VR",
-      "answer_type": "text"
-    },
-    {
-      "order": "2",
-      "points": "200",
-      "dailydouble": "no",
-      "question": "Chi è stato acquisito da Microsoft?",
-      "question_type": "text",
-      "answer": "Nokia Mobile",
-      "answer_type": "text"
-    },
-    {
-      "order": "3",
-      "points": "300",
-      "dailydouble": "no",
-      "question": "Chi è stato acquisito da Google?",
-      "question_type": "text",
-      "answer": "Nest Labs Inc",
-      "answer_type": "text"
-    },
-    {
-      "order": "4",
-      "points": "400",
-      "dailydouble": "no",
-      "question": "Chi è stato acquisito da Sony?",
-      "question_type": "text",
-      "answer": "Ericsson",
-      "answer_type": "text"
-    },
-    {
-      "order": "5",
-      "points": "500",
-      "dailydouble": "no",
-      "question": "Chi è stato acquisito da Wind?",
-      "question_type": "text",
-      "answer": "Blu Telecomunicazioni",
-      "answer_type": "text"
-    }
-  ],
-  "category6": [
-    "Ports",
-    {
-      "order": "1",
-      "points": "100",
-      "dailydouble": "no",
-      "question": "Qual'è la porta per IMAP?",
-      "question_type": "text",
-      "answer": "143",
-      "answer_type": "text"
-    },
-    {
-      "order": "2",
-      "points": "200",
-      "dailydouble": "no",
-      "question": "Qual'è la porta per FTP?",
-      "question_type": "text",
-      "answer": "0x15",
-      "answer_type": "text"
-    },
-    {
-      "order": "3",
-      "points": "300",
-      "dailydouble": "no",
-      "question": "Qual'è la porta per Back Orifice?",
-      "question_type": "text",
-      "answer": "31337",
-      "answer_type": "text"
-    },
-    {
-      "order": "4",
-      "points": "400",
-      "dailydouble": "no",
-      "question": "Qual'è la porta per Microsoft SWL Server?",
-      "question_type": "text",
-      "answer": "1433",
-      "answer_type": "text"
-    },
-    {
-      "order": "5",
-      "points": "500",
-      "dailydouble": "no",
-      "question": "Qual'è la porta per Doom?",
-      "question_type": "text",
-      "answer": "666",
-      "answer_type": "text"
-    }
-  ]
+    "category1": [
+        "Phreaking",
+        {
+            "order": "1",
+            "points": "100",
+            "dailydouble": "no",
+            "question": "Che cos'è una blue box?",
+            "question_type": "text",
+            "answer": "Prima di fondare Apple, Jobs e Wozniak costruivano questa «scatola» che imitava i toni di controllo della rete telefonica.",
+            "answer_type": "text"
+        },
+        {
+            "order": "2",
+            "points": "200",
+            "dailydouble": "no",
+            "question": "Che cosa sono i 2600 Hz?",
+            "question_type": "text",
+            "answer": "Un fischietto omaggio nei cereali Cap'n Crunch poteva produrre questa frequenza, il cui valore dà il nome a una celebre rivista hacker.",
+            "answer_type": "text"
+        },
+        {
+            "order": "3",
+            "points": "300",
+            "dailydouble": "no",
+            "question": "Che cos'è una red box?",
+            "question_type": "text",
+            "answer": "Simulava i toni con cui alcuni telefoni pubblici americani segnalavano l'inserimento delle monete: anche questa «scatola» prende il nome da un colore.",
+            "answer_type": "text"
+        },
+        {
+            "order": "4",
+            "points": "400",
+            "dailydouble": "no",
+            "question": "Che cos'è la segnalazione fuori banda?",
+            "question_type": "text",
+            "answer": "É un tipo di segnalazione, adottato da sistemi come SS7, che separa i comandi della rete dal canale vocale e impedisce il trucco della blue box.",
+            "answer_type": "text"
+        },
+        {
+            "order": "5",
+            "points": "500",
+            "dailydouble": "yes",
+            "question": "Chi è Ron Rosenbaum?",
+            "question_type": "text",
+            "answer": "Firmò su Esquire, nell'ottobre 1971, «Secrets of the Little Blue Box», l'articolo che spinse Jobs e Wozniak a interessarsi al phreaking.",
+            "answer_type": "text"
+        }
+    ],
+    "category2": [
+        "MEME",
+        {
+            "order": "1",
+            "points": "100",
+            "dailydouble": "no",
+            "question": "Chi è Doge?",
+            "question_type": "text",
+            "answer": "games/round_demo/meme/doge.jpg",
+            "answer_type": "image"
+        },
+        {
+            "order": "2",
+            "points": "200",
+            "dailydouble": "no",
+            "question": "Chi è Dolan?",
+            "question_type": "text",
+            "answer": "games/round_demo/meme/dolan.png",
+            "answer_type": "image"
+        },
+        {
+            "order": "3",
+            "points": "300",
+            "dailydouble": "no",
+            "question": "Chi è Conspiracy Keanu?",
+            "question_type": "text",
+            "answer": "games/round_demo/meme/keanu.jpg",
+            "answer_type": "image"
+        },
+        {
+            "order": "4",
+            "points": "400",
+            "dailydouble": "no",
+            "question": "Cos'è Safe For Work Porn?",
+            "question_type": "text",
+            "answer": "games/round_demo/meme/sfwp.jpg",
+            "answer_type": "image"
+        },
+        {
+            "order": "5",
+            "points": "500",
+            "dailydouble": "no",
+            "question": "Che meme dice 'Hello, this is dog?'",
+            "question_type": "text",
+            "answer": "games/round_demo/meme/dog.png",
+            "answer_type": "image"
+        }
+    ],
+    "category3": [
+        "Hello world",
+        {
+            "order": "1",
+            "points": "100",
+            "dailydouble": "no",
+            "question": "Come si fa l'Hello world in LOLCODE?",
+            "question_type": "text",
+            "answer": "HAI<br>CAN HAS STDIO?<br/>VISIBLE \"HAI WORLD!\"<br/>KTHXBYE",
+            "answer_type": "text"
+        },
+        {
+            "order": "2",
+            "points": "200",
+            "dailydouble": "no",
+            "question": "Come si fa l'Hello world in TeX?",
+            "question_type": "text",
+            "answer": "Hello, world!<br/>\\bye",
+            "answer_type": "text"
+        },
+        {
+            "order": "3",
+            "points": "300",
+            "dailydouble": "no",
+            "question": "Come si fa l'Hello world in D?",
+            "question_type": "text",
+            "answer": "import std.stdio;<br/>void main()<br/>{<br/>    writeln(\"Hello, World!\");<br/>}",
+            "answer_type": "text"
+        },
+        {
+            "order": "4",
+            "points": "400",
+            "dailydouble": "no",
+            "question": "Come si fa l'Hello world in Awk?",
+            "question_type": "text",
+            "answer": "BEGIN { if ( NF == 0 ) print \"Hello, world!\" }",
+            "answer_type": "text"
+        },
+        {
+            "order": "5",
+            "points": "500",
+            "dailydouble": "no",
+            "question": "Come si fa l'Hello world in ABAP?",
+            "question_type": "text",
+            "answer": "REPORT TEST.<br/>WRITE 'Hello World'.",
+            "answer_type": "text"
+        }
+    ],
+    "category4": [
+        "Quotes",
+        {
+            "order": "1",
+            "points": "100",
+            "dailydouble": "no",
+            "question": "Qual'è una famosa citazione presa da Star Wars?",
+            "question_type": "text",
+            "answer": "May the Force be with you",
+            "answer_type": "text"
+        },
+        {
+            "order": "2",
+            "points": "200",
+            "dailydouble": "no",
+            "question": "Qual'è una famosa citazione presa dalla vignetta xkcd numero 149?",
+            "question_type": "text",
+            "answer": "sudo make me a sandwitch",
+            "answer_type": "text"
+        },
+        {
+            "order": "3",
+            "points": "300",
+            "dailydouble": "no",
+            "question": "Qual'è il principio di Dilbert?",
+            "question_type": "text",
+            "answer": "I lavoratori meno efficienti vengono sistematicamente trasferiti nelle posizioni dove possono fare meno danni: diventano dirigenti",
+            "answer_type": "text"
+        },
+        {
+            "order": "4",
+            "points": "400",
+            "dailydouble": "no",
+            "question": "Qual'è una famosa citazione presa dal film Hackers?",
+            "question_type": "text",
+            "answer": "Provoca il più bravo, morirai da schiavo",
+            "answer_type": "text"
+        },
+        {
+            "order": "5",
+            "points": "500",
+            "dailydouble": "yes",
+            "question": "Qual'è una famosa citazione presa dal cartone animato South Park?",
+            "question_type": "text",
+            "answer": "Quanto ti fai una sega con ragazze Giapponesi che si pisciano addosso non puoi tornare a Playboy!",
+            "answer_type": "text"
+        }
+    ],
+    "category5": [
+        "Reti & Trabocchetti",
+        {
+            "order": "1",
+            "points": "100",
+            "dailydouble": "no",
+            "question": "Quale materia prima è fondamentale per la grappa?",
+            "question_type": "text",
+            "answer": "Vinacce.",
+            "answer_type": "text"
+        },
+        {
+            "order": "2",
+            "points": "200",
+            "dailydouble": "no",
+            "question": "Cos'è una rete a strascico?",
+            "question_type": "text",
+            "answer": "games/round_demo/reti/strascico.png",
+            "answer_type": "image"
+        },
+        {
+            "order": "3",
+            "points": "300",
+            "dailydouble": "no",
+            "question": "Che cos'è Itapac?",
+            "question_type": "text",
+            "answer": "Aveva pacchetti e indirizzi, ma non era Internet: questa rete pubblica della SIP usava X.25 e identificava le utenze con indirizzi NUA.",
+            "answer_type": "text"
+        },
+        {
+            "order": "4",
+            "points": "400",
+            "dailydouble": "no",
+            "question": "Che cosa è LSRR/SSRR?",
+            "question_type": "text",
+            "answer": "Una vecchia opzione IPv4 permetteva al mittente di dettare la rotta ai router: una pacchia per chi voleva farsi credere qualcun altro.",
+            "answer_type": "text"
+        },
+        {
+            "order": "5",
+            "points": "500",
+            "dailydouble": "no",
+            "question": "Cosa sono le calze a rete",
+            "question_type": "text",
+            "answer": "games/round_demo/reti/calze.jpeg",
+            "answer_type": "image"
+        }
+    ],
+    "category6": [
+        "Ports",
+        {
+            "order": "1",
+            "points": "100",
+            "dailydouble": "no",
+            "question": "Qual'è la porta per IMAP?",
+            "question_type": "text",
+            "answer": "143",
+            "answer_type": "text"
+        },
+        {
+            "order": "2",
+            "points": "200",
+            "dailydouble": "no",
+            "question": "Qual'è la porta per FTP?",
+            "question_type": "text",
+            "answer": "0x15",
+            "answer_type": "text"
+        },
+        {
+            "order": "3",
+            "points": "300",
+            "dailydouble": "no",
+            "question": "Qual'è la porta per Back Orifice?",
+            "question_type": "text",
+            "answer": "31337",
+            "answer_type": "text"
+        },
+        {
+            "order": "4",
+            "points": "400",
+            "dailydouble": "no",
+            "question": "Qual'è la porta per Microsoft SWL Server?",
+            "question_type": "text",
+            "answer": "1433",
+            "answer_type": "text"
+        },
+        {
+            "order": "5",
+            "points": "500",
+            "dailydouble": "no",
+            "question": "Qual'è la porta per Doom?",
+            "question_type": "text",
+            "answer": "666",
+            "answer_type": "text"
+        }
+    ]
 }
